@@ -16,6 +16,9 @@
           buildInputs = [
             pkgs.nushell
           ];
+          shellHook = ''
+            nu
+          '';
         };
         formatter = pkgs.nixpkgs-fmt;
       }
