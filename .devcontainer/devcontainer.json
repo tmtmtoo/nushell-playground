@@ -1,0 +1,15 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/base:debian",
+    "remoteUser": "vscode",
+    "updateRemoteUserUID": false,
+    "postCreateCommand": "bash .devcontainer/post_create.sh",
+    "forwardPorts": [],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "bbenoist.nix",
+                "vscodevim.vim"
+            ]
+        }
+    }
+}
