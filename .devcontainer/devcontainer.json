@@ -8,7 +8,8 @@
         "vscode": {
             "extensions": [
                 "bbenoist.nix",
-                "vscodevim.vim"
+                "vscodevim.vim",
+                "TheNuProjectContributors.vscode-nushell-lang"
             ]
         }
     }
