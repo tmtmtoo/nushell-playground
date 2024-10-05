@@ -1,5 +1,5 @@
 {
-  description = "nix-flake-nodejs-app";
+  description = "nushell playground";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
