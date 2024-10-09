@@ -1,14 +1,13 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/base:debian",
-    "remoteUser": "vscode",
-    "updateRemoteUserUID": false,
-    "postCreateCommand": "bash .devcontainer/post_create.sh",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
     "forwardPorts": [],
     "customizations": {
         "vscode": {
             "extensions": [
-                "bbenoist.nix",
                 "vscodevim.vim",
+                "ms-azuretools.vscode-docker",
                 "TheNuProjectContributors.vscode-nushell-lang"
             ]
         }
